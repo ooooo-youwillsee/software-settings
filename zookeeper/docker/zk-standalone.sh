@@ -1,0 +1,1 @@
+docker run --name zk-standalone -d -p 2181:2181 -p 12311:8080 zookeeper

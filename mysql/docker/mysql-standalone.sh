@@ -1,0 +1,1 @@
+docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v C:/Users/ooooo/Development/Code/Self/software-settings/zookeeper/docker/conf:/etc/mysql/conf.d -d mysql:8.0

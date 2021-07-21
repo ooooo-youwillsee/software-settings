@@ -1,5 +1,8 @@
 let mapleader=' '
 
+" 不发出声音
+set visualbell
+set noerrorbells
 " Plugins  --------------------------------
 set surround
 set multiple-cursors
@@ -20,7 +23,7 @@ set smartcase
 set showmode
 set number
 " set relativenumber
-set scrolloff=3
+set scrolloff=4
 set history=100000
 set clipboard=unnamed
 
