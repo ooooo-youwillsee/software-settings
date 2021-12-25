@@ -1,0 +1,5 @@
+Host github.com
+    #ProxyCommand connect -H http://ooooo:10800 %h %p   #window 设置代理
+    ProxyCommand nc -X connect -x ooooo:10800 %h %p #linux 设置代理
+    IdentityFile ~/.ssh/id_rsa 
+    User git
