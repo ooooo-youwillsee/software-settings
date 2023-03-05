@@ -7,7 +7,7 @@ services:
     init: true
     environment:
       MOUNT_SOURCE: C:/Users/ooooo/Downloads/istio-1.16-dev
-      HOME: C:/Users/ooooo
+#      HOME: C:/Users/ooooo
     volumes:
     - type: bind
       source: /var/run/docker.sock
