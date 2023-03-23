@@ -1,0 +1,52 @@
+{
+    "mapping": {
+        "1,14,1": [
+            "KEY_BACKSLASH",
+            "keyboard"
+        ],
+        "1,43,1": [
+            "KEY_BACKSPACE",
+            "keyboard"
+        ],
+        "1,1,1": [
+            "KEY_GRAVE",
+            "keyboard"
+        ],
+        "1,41,1": [
+            "Escape",
+            "keyboard"
+        ],
+        "1,58,1+1,4,1": [
+            "Shift_L  + KEY_F6",
+            "keyboard"
+        ],
+        "1,58,1+1,35,1": [
+            "KEY_LEFT",
+            "keyboard"
+        ],
+        "1,58,1+1,37,1": [
+            "KEY_UP",
+            "keyboard"
+        ],
+        "1,58,1+1,38,1": [
+            "KEY_RIGHT",
+            "keyboard"
+        ],
+        "1,58,1+1,36,1": [
+            "KEY_DOWN",
+            "keyboard"
+        ],
+        "1,56,1": [
+            "Super_L",
+            "keyboard"
+        ],
+        "1,29,1": [
+            "Alt_L",
+            "keyboard"
+        ],
+        "1,125,1": [
+            "Control_L",
+            "keyboard"
+        ]
+    }
+}
