@@ -1,11 +1,10 @@
+source ~/.vimrc
 let mapleader=' '
 
-" 不发出声音
-set visualbell
-set noerrorbells
 " Plugins  --------------------------------
-set surround
-set multiple-cursors
+"set surround
+"set multiple-cursors
+"set exchange
 "set commentary
 "set argtextobj
 "set easymotion
@@ -23,7 +22,7 @@ set smartcase
 set showmode
 set number
 " set relativenumber
-set scrolloff=4
+set scrolloff=3
 set history=100000
 set clipboard=unnamed
 
@@ -106,7 +105,7 @@ nnoremap <Leader>w\| <C-W>v
 
 " built in search looks better
 nnoremap / :action Find<CR>
-" but preserve ideavim h
+" but preserve ideavim search
 nnoremap <Leader>/ /
 
 nnoremap <Leader>;; :action CommentByLineComment<CR>
