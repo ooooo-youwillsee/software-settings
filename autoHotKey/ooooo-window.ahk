@@ -32,7 +32,7 @@ if (name == "WeChat.exe") {
     Send !{F4}
 }else if (name == "chrome.exe") {
     Send ^w
-}else If InStr(path, "JetBrains\Toolbox\apps") {
+}else If InStr(path, "JetBrains\Toolbox") {
     ; JetBrains apps close window
     Send ^{F4}
  }else {
@@ -61,23 +61,40 @@ return
 ;Send #s
 ;return
 
+; JetBrains apps refactor
+#t::
+WinGet, path, ProcessPath, A
+If InStr(path, "JetBrains\Toolbox")
+    Send ^!+t
+return
+; JetBrains apps copilot
+$#.::
+WinGet, path, ProcessPath, A
+If InStr(path, "JetBrains\Toolbox")
+    Send !]
+return
 ; JetBrains apps open settings
 ^,::
 WinGet, path, ProcessPath, A
-WinGet, name, ProcessName, A
-If InStr(path, "JetBrains\Toolbox\apps")
+If InStr(path, "JetBrains\Toolbox")
     Send ^!s
+return
+; JetBrains apps open project settings
+^;::
+WinGet, path, ProcessPath, A
+If InStr(path, "JetBrains\Toolbox")
+    Send ^!+s
 return
 ; JetBrains apps rename
 #3::
 WinGet, path, ProcessPath, A
-If InStr(path, "JetBrains\Toolbox\apps")
+If InStr(path, "JetBrains\Toolbox")
     Send +{F6}
 return
 ; JetBrains apps generate
 #n::
 WinGet, path, ProcessPath, A
-If InStr(path, "JetBrains\Toolbox\apps")
+If InStr(path, "JetBrains\Toolbox")
     Sleep 300
     Send !{Insert}
 return
@@ -85,7 +102,7 @@ return
 ; JetBrains apps code completion
 #/::
 WinGet, path, ProcessPath, A
-If InStr(path, "JetBrains\Toolbox\apps")
+If InStr(path, "JetBrains\Toolbox")
     Send !/
 return
 
