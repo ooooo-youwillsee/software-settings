@@ -1,0 +1,211 @@
+<keymap version="1" name="Windows ooooo" parent="$default">
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="ctrl 5" />
+  </action>
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl 6" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 4" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+    <keyboard-shortcut first-keystroke="ctrl 8" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+    <keyboard-shortcut first-keystroke="ctrl 7" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl 0" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="ctrl 9" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
+  <action id="DatabaseView.OpenFamilyAction" />
+  <action id="Diff.ShowDiff" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditPropertyValue" />
+  <action id="EditSource" />
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorSplitLine" />
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+  </action>
+  <action id="ExportToTextFile" />
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="ForceOthersToFollowAction" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
+  <action id="GotoBookmark6" />
+  <action id="GotoBookmark7" />
+  <action id="GotoBookmark8" />
+  <action id="GotoBookmark9" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="IdeaVim.ReloadVimRc.reload" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="Jdbc.OpenEditor.Data" />
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="shift ctrl 9" />
+  </action>
+  <action id="NavBar-navigate" />
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="NewElementMenu">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="OpenBookmarkGroup" />
+  <action id="OpenModuleSettings" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="shift alt o" />
+  </action>
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="ProjectViewEditSource" />
+  <action id="QuickImplementations" />
+  <action id="RemoteHostView.EditSource" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="alt f6" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="SelectVirtualTemplateElement" />
+  <action id="SendEOF" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="shift f11" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="SplitChooser.Duplicate" />
+  <action id="Sql.EditParameter" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ToggleBookmark9" />
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="UiInspector" />
+  <action id="UsageGrouping.FlattenModules" />
+  <action id="ViewSource" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="ZoomInIdeAction">
+    <keyboard-shortcut first-keystroke="shift alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="ZoomOutIdeAction">
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="openAssertEqualsDiff" />
+</keymap>

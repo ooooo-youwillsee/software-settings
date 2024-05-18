@@ -1,4 +1,5 @@
 <keymap version="1" name="Mac OS ooooo" parent="Mac OS X 10.5+">
+  <action id="ActivateCommitToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
@@ -6,10 +7,8 @@
   </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
-    <mouse-shortcut keystroke="button4" />
-  </action>
+  <action id="Bito.StyleCheck" />
+  <action id="Bito.StyleCheck1" />
   <action id="ChangesView.SetDefault" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
@@ -28,11 +27,9 @@
   <action id="CollapseRegionRecursively" />
   <action id="CompareTwoFiles" />
   <action id="Compile">
-    <keyboard-shortcut first-keystroke="shift meta f9" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
   <action id="CompileDirty">
-    <keyboard-shortcut first-keystroke="meta f9" />
     <keyboard-shortcut first-keystroke="shift ctrl meta 9" />
   </action>
   <action id="Console.Execute.Multiline" />
@@ -41,7 +38,6 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
-  <action id="Console.TableResult.NavigateAction" />
   <action id="Console.TableResult.SetDefault" />
   <action id="CopyElement" />
   <action id="CopyPaths">
@@ -50,6 +46,9 @@
   <action id="DSM.OpenInEditor" />
   <action id="Database.OpenDbStorageAction" />
   <action id="DatabaseView.CopyAction" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debug" />
@@ -58,18 +57,15 @@
   <action id="DecrementWindowHeight" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-  </action>
-  <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Edit" />
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource" />
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta d" />
@@ -80,16 +76,10 @@
   <action id="EditorDuplicate" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
-  <action id="EditorRight">
-    <keyboard-shortcut first-keystroke="right" />
-  </action>
+  <action id="EditorScrollToCenter" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="ctrl meta enter" />
-  </action>
-  <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="shift meta u" />
-    <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -102,7 +92,6 @@
     <keyboard-shortcut first-keystroke="shift meta plus" />
   </action>
   <action id="ExpandRegionRecursively" />
-  <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.GotoDesktop" />
@@ -117,14 +106,9 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
-    <mouse-shortcut keystroke="button5" />
-  </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="ctrl help" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="ctrl n" />
-    <keyboard-shortcut first-keystroke="meta help" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -139,25 +123,21 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="meta f12" />
-  </action>
   <action id="GotoNextIncompletePropertyAction" />
-  <action id="GotoPreviousError" />
-  <action id="GotoSuperMethod" />
   <action id="Graph.Faces.OpenSelectedPages" />
   <action id="Groovy.Shell.Execute" />
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="shift meta f12" />
-    <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="meta 2" />
-  </action>
+  <action id="HippieCompletion" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
-  <action id="IncrementWindowHeight" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
@@ -170,7 +150,6 @@
   </action>
   <action id="Jdbc.OpenConsole" />
   <action id="Jdbc.OpenConsole.New" />
-  <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="Jdbc.OpenEditor" />
   <action id="Jdbc.OpenEditor.DDL">
     <keyboard-shortcut first-keystroke="meta b" />
@@ -181,19 +160,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="KotlinShellExecute" />
-  <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="ctrl meta j" />
-  </action>
-  <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="ctrl meta k" />
-  </action>
   <action id="Move" />
-  <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="ctrl down" />
-  </action>
-  <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="ctrl up" />
-  </action>
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="NewElement" />
@@ -207,14 +176,11 @@
   </action>
   <action id="OpenModuleSettings" />
   <action id="OptimizeImports">
-    <keyboard-shortcut first-keystroke="ctrl alt o" />
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
-  <action id="PasteMultiple">
-    <keyboard-shortcut first-keystroke="shift meta v" />
-    <keyboard-shortcut first-keystroke="meta alt v" />
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
-  <action id="Play2.TypeInfo" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
@@ -227,12 +193,9 @@
   <action id="RemoteHost.NewRemoteItem" />
   <action id="RemoteHostView.EditSource" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl 3" />
   </action>
   <action id="ResetColumnsWidth" />
-  <action id="ResizeToolWindowDown" />
-  <action id="ResizeToolWindowUp" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -245,13 +208,13 @@
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt f9" />
     <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="Scala.Desugar" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
-  <action id="Scala.TypeInfo" />
   <action id="ScalaConsole.Execute" />
   <action id="ScalaFmtFormat" />
   <action id="ScalaImportsOrganizer" />
@@ -261,6 +224,7 @@
   <action id="ScrollPane-scrollUp">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
+  <action id="SelectVirtualTemplateElement" />
   <action id="SendEOF" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -269,11 +233,18 @@
     <keyboard-shortcut first-keystroke="meta f3" />
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
-  <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="ShowNextTabnineInlineCompletionAction">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f5" />
@@ -281,21 +252,24 @@
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
-  <action id="TypeHierarchy">
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="TypeHierarchy" />
   <action id="UML.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
   <action id="UML.ApplyCurrentLayout" />
   <action id="Vcs.EditSource" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift meta f8" />
     <keyboard-shortcut first-keystroke="f11" />
@@ -307,6 +281,19 @@
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="ZoomInIdeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+  </action>
+  <action id="ZoomOutIdeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+  </action>
+  <action id="com.itangcent.idea.easy_api.actions.ApiCallAction" />
+  <action id="com.itangcent.idea.easy_api.actions.MultipleExportAction" />
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
   <action id="emacsIDEAs.AceJump" />
   <action id="emacsIDEAs.AceJumpWord">
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -314,4 +301,5 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="openAssertEqualsDiff" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
 </keymap>
